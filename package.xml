@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>RG_ImportSubscribers</name>
+    <version>1.1.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Now you can import your subscriber list from previously exported file as well as from scratch</summary>
+    <description>Now you can import your subscriber list from previously exported file as well as from scratch</description>
+    <notes>Fixed installer&#xD;
+'change_status_at' column of 'newsletter_subscriber' table are populated</notes>
+    <authors><author><name>Ruslan Gumennyi</name><user>RuslanGumennyi</user><email>ruslan.gumennyi@gmail.com</email></author></authors>
+    <date>2012-02-29</date>
+    <time>20:22:02</time>
+    <contents><target name="magecommunity"><dir name="RG"><dir name="ImportSubscribers"><file name="Exception.php" hash="31519f656837782d3d7903c34a862615"/><dir name="Helper"><file name="Data.php" hash="5660eff47ed393b3c4b190406ef8577b"/></dir><dir name="Model"><dir name="Adminhtml"><file name="Import.php" hash="03b42789be695a9c60fbea32e6d9860b"/></dir><file name="Import.php" hash="478250a3bf500c0707424dda3c95cf84"/><dir name="Mysql4"><file name="Import.php" hash="466fcce6da68ea875bb88d79c891d71e"/></dir><dir name="Resource"><file name="Import.php" hash="a3a1fd76c9f76b73aa754b01ae4651ab"/></dir></dir><dir name="etc"><file name="config.xml" hash="4182895dfe515e211a3219cda43e32c3"/><file name="system.xml" hash="5922e2a2edacdabbb56123a79361aa5d"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="RG_ImportSubscribers.xml" hash="8c9f3ad5ba88f3bd080f54af8e09dde9"/></dir></target><target name="magelocale"><dir name="en_US"><file name="RG_ImportSubscribers.csv" hash="188021e52b6fbeefdaa191ca399e3769"/></dir><dir name="ru_RU"><file name="RG_ImportSubscribers.csv" hash="06f6a3658724fff32ede46f38cae476a"/></dir><dir name="uk_UA"><file name="RG_ImportSubscribers.csv" hash="a62c95de588938e4c52a0e4a1a0c2fa7"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
